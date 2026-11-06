@@ -40,3 +40,6 @@ bash termux/install.sh
 ```sh
 python3 -m unittest discover -s tests -v
 ```
+
+## 2026-11 GitHub Actions 修复
+`setup-android@v3` 请求已废弃的 `tools` SDK 包，已升级至 v4，并显式仅安装 `platform-tools`。Gradle 固定为 8.9，Java Action 升级为 v6。尚需 GitHub 云端验证。
